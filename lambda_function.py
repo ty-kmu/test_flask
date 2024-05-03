@@ -100,7 +100,7 @@ def lambda_handler(event):
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8081)
+    app.run(host='0.0.0.0', debug=True, port=8081)
     # if len(sys.argv) < 2:
     #     sys.exit(1)
     # event = {}
